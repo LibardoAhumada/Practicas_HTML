@@ -717,12 +717,16 @@ The CSS font-size property defines the text size to be used.
         </table>
         
         <p>To understand the example better, we have added borders to the table.</p>
-    <table>
-        <tr>
-            <th>
+        <style> = table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+          }</style>
+    <table style="background-color: #ff6347;">
+        <tr style="background-color: black;">
+            <th style="color:aliceblue;">
                 Tag
             </th>
-            <th>
+            <th style="color: azure;">
                 Descrption
             </th>
         </tr>
@@ -769,9 +773,10 @@ The CSS font-size property defines the text size to be used.
         <tr>
             <td>tfoot</td>
             <td>Groups the footer content in a table</td>
-        </tr>
-         
+        </tr>         
     </table>
+          <br><br>
+          <hr>
           
 
 
