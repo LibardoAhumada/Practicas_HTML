@@ -198,7 +198,7 @@
   <p style="color:red;">This is a paragraph.</p>
 
   <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">This is a heading</h1>
-  <p <style="font-family:courier;">This is a paragraph</p>
+  <p style="font-family:courier;">This is a paragraph</p>
 
   <h1 style="font-size: 300%"></h1>
   <p style="font-size:160%",>This is a paragraph</p>
@@ -322,95 +322,81 @@
   </p>
   <h2>HSL Color Values</h2>
 
-    <pre>In HTML, a color can be specified using hue, saturation, and lightness (HSL) in the form:
-        <h3><b>hsl(hue, saturation, lightness)</b></h3> 
-        
-        Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
-        
-        Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
-        
-        Lightness is also a percentage value. 0% is black, and 100% is white.
-        
-        Experiment by mixing the HSL values below:</pre>
+  <pre>In HTML, a color can be specified using hue, saturation, and lightness (HSL) in the form:
+      <h3><b>hsl(hue, saturation, lightness)</b></h3>         
+      Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.        
+      Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.        
+      Lightness is also a percentage value. 0% is black, and 100% is white.        
+      Experiment by mixing the HSL values below:
+  </pre>
 
+  <h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+  <h1 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h1>
+  <h1 style="background-color:hsl(147, 50%, 47%);">hsl(147, 50%, 47%)</h1>
+  <h1 style="background-color:hsl(300, 76%, 72%);">hsl(300, 76%, 72%)</h1>
+  <h1 style="background-color:hsl(39, 100%, 50%);">hsl(39, 100%, 50%)</h1>
+  <h1 style="background-color:hsl(248, 53%, 58%);">hsl(248, 53%, 58%)</h1>
 
-        <h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
-        <h1 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h1>
-        <h1 style="background-color:hsl(147, 50%, 47%);">hsl(147, 50%, 47%)</h1>
-        <h1 style="background-color:hsl(300, 76%, 72%);">hsl(300, 76%, 72%)</h1>
-        <h1 style="background-color:hsl(39, 100%, 50%);">hsl(39, 100%, 50%)</h1>
-        <h1 style="background-color:hsl(248, 53%, 58%);">hsl(248, 53%, 58%)</h1>
+  <h3>Saturation</h3>
+  <p>Saturation can be described as the intensity of a color.    
+      100% is pure color, no shades of gray.    
+      50% is 50% gray, but you can still see the color.    
+      0% is completely gray; you can no longer see the color.
+  </p>
 
-<h3>Saturation</h3>
-<p>
-    Saturation can be described as the intensity of a color.
-    
-    100% is pure color, no shades of gray.
-    
-    50% is 50% gray, but you can still see the color.
-    
-    0% is completely gray; you can no longer see the color.</p>
+  <h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 80%, 50%);">hsl(0, 80%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 60%, 50%);">hsl(0, 60%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 40%, 50%);">hsl(0, 40%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 20%, 50%);">hsl(0, 20%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 0%, 50%);">hsl(0, 0%, 50%)</h1>
 
-    <h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
-    <h1 style="background-color:hsl(0, 80%, 50%);">hsl(0, 80%, 50%)</h1>
-    <h1 style="background-color:hsl(0, 60%, 50%);">hsl(0, 60%, 50%)</h1>
-    <h1 style="background-color:hsl(0, 40%, 50%);">hsl(0, 40%, 50%)</h1>
-    <h1 style="background-color:hsl(0, 20%, 50%);">hsl(0, 20%, 50%)</h1>
-    <h1 style="background-color:hsl(0, 0%, 50%);">hsl(0, 0%, 50%)</h1>
-    
-<h3><b>Lightness</b></h3>
-<p>The lightness of a color can be described as how much light you want to give the color, where 0% means no light (black), 50% means 50% light (neither dark nor light), and 100% means full lightness (white).</p>
+  <h3><b>Lightness</b></h3>
+  <p>The lightness of a color can be described as how much light you want to give the color, where 0% means no light (black), 50% means 50% light (neither dark nor light), and 100% means full lightness (white).</p>
 
-<h1 style="background-color:hsl(0, 100%, 0%);">hsl(0, 100%, 0%)</h1>
-<h1 style="background-color:hsl(0, 100%, 25%);">hsl(0, 100%, 25%)</h1>
-<h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
-<h1 style="background-color:hsl(0, 100%, 75%);">hsl(0, 100%, 75%)</h1>
-<h1 style="background-color:hsl(0, 100%, 90%);">hsl(0, 100%, 90%)</h1>
-<h1 style="background-color:hsl(0, 100%, 100%);">hsl(0, 100%, 100%)</h1>
+  <h1 style="background-color:hsl(0, 100%, 0%);">hsl(0, 100%, 0%)</h1>
+  <h1 style="background-color:hsl(0, 100%, 25%);">hsl(0, 100%, 25%)</h1>
+  <h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 100%, 75%);">hsl(0, 100%, 75%)</h1>
+  <h1 style="background-color:hsl(0, 100%, 90%);">hsl(0, 100%, 90%)</h1>
+  <h1 style="background-color:hsl(0, 100%, 100%);">hsl(0, 100%, 100%)</h1>
 
-<p>With HSL colors, 0% lightness means black, and 100 lightness means white.</p><br><hr>
+  <p>With HSL colors, 0% lightness means black, and 100 lightness means white.</p>
+  <br><h1 style="color:blue;">A Blue Heading</h1>
+  <p style="color:red;">A red paragraph.</p>
 
-style="color:blue;">A Blue Heading</h1>
-
-<p style="color:red;">A red paragraph.</p>
-
-<h1><b>CSS Colors, Fonts and Sizes</b></h1>
-<pre>
+  <h1><b>CSS Colors, Fonts and Sizes</b></h1>
+  <pre>
     Here, we will demonstrate some commonly used CSS properties. You will learn more about them later.
+    The CSS <span style="color:red"></span> color property defines the text color to be used.
+    The CSS font-family property defines the font to be used.
+    The CSS font-size property defines the text size to be used.
+  </pre>
 
-The CSS <span style="color:red"></span> color property defines the text color to be used.
-
-The CSS font-family property defines the font to be used.
-
-The CSS font-size property defines the text size to be used.
-
-</pre>
-
-<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
-<h2><b>HTML Links - The target Attribute</b></h2>
-
-<pre>By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
-
-    The target attribute specifies where to open the linked document.
-    
-    The target attribute can have one of the following values:
-    
+  <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+  <h2><b>HTML Links - The target Attribute</b></h2>
+  <pre>By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+    The target attribute specifies where to open the linked document.    
+    The target attribute can have one of the following values:    
     _self - Default. Opens the document in the same window/tab as it was clicked
     _blank - Opens the document in a new window or tab
     _parent - Opens the document in the parent frame
-    _top - Opens the document in the full body of the window</pre>
+    _top - Opens the document in the full body of the window
+  </pre>
 
-<a href="#" target="_blank=">Visit W3School</a>
-<p>If target="_blank", the link will open in a new browser window or tab.</p>
-<a href="#">
+  <a href="#" target="_blank=">Visit W3School</a>
+  <p>If target="_blank", the link will open in a new browser window or tab.</p>
+  <a href="#">
     <img src="./assets/ImgAnimales 051.jpg" alt="img cat" height="400px" width="400px">
-</a>
-<h1 style="background-color: tomato;">Hello World</h1>
-<p style="background-color: blueviolet;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem veritatis, asperiores illo quasi, provident expedita non quaerat soluta ipsam doloribus delectus consequatur aperiam est unde enim laboriosam incidunt quos! Accusantium!</p>
-<h2><b>Chapter Summary</b></h2>
-<ul>
-   <li> Use the HTML style attribute for inline styling</li>
-   <li> Use the HTML <.style> element to define internal CSS</li>
+  </a>
+
+  <h1 style="background-color: tomato;">Hello World</h1>
+  <p style="background-color: blueviolet;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem veritatis, asperiores illo quasi, provident expedita non quaerat soluta ipsam doloribus delectus consequatur aperiam est unde enim laboriosam incidunt quos! Accusantium!</p>
+  <h2><b>Chapter Summary</b></h2>
+
+  <ul>
+    <li> Use the HTML style attribute for inline styling</li>
+    <li> Use the HTML <.style> element to define internal CSS</li>
     <li> Use the HTML <.link> element to refer to an external CSS file</li>
     <li> Use the HTML <.head> element to store <.style> and <.link> elements</li>
     <li> Use the CSS color property for text colors</li>
@@ -419,207 +405,197 @@ The CSS font-size property defines the text size to be used.
     <li> Use the CSS border property for borders</li>
     <li> Use the CSS padding property for space inside the border</li>
     <li> Usegit the CSS margin property for space outside the border</li>
-</ul>
-<br><hr>
+  </ul>
+  <br><hr>
 
-<h2>HTML Links - Syntax</h2>
-<p>The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+  <h2>HTML Links - Syntax</h2>
+  <p>The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+    The link text is the part that will be visible to the reader.    
+    Clicking on the link text, will send the reader to the specified URL address.
+  </p>
+  <p>
+    Use the <,a> element to define a link
+    Use the href attribute to define the link address
+    Use the target attribute to define where to open the linked document
+    Use the <,img> element (inside <,a>) to use an image as a link
+    Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+  </p>
 
-    The link text is the part that will be visible to the reader.
-    
-    Clicking on the link text, will send the reader to the specified URL address.</p>
-    <p>Use the <,a> element to define a link
-        Use the href attribute to define the link address
-        Use the target attribute to define where to open the linked document
-        Use the <,img> element (inside <,a>) to use an image as a link
-        Use the mailto: scheme inside the href attribute to create a link that opens the user's email program</p>
-    <h2>Create a Bookmark in HTML</h2>
-    <p>HTML links can be used to create bookmarks, so that readers can jump to specific parts of a web page.</p>
-    <br>
-    <p>Bookmarks can be useful if a web page is very long.
+  <h2>Create a Bookmark in HTML</h2>
+  <p>HTML links can be used to create bookmarks, so that readers can jump to specific parts of a web page.</p>
+  <br>
+  <p>
+    Bookmarks can be useful if a web page is very long.
+    To create a bookmark - first create the bookmark, then add a link to it.        
+    When the link is clicked, the page will scroll down or up to the location with the bookmark.
+  </p>
 
-        To create a bookmark - first create the bookmark, then add a link to it.
-        
-        When the link is clicked, the page will scroll down or up to the location with the bookmark.</p>
+  <span>First, use the id attribute to create a bookmark:</span>
+  <h2 id="C4">Chapter 4</h2>
+  <p><a href="#C4">Jump to Chapter 4</a></p>
+  <p><a href="#C10">Jump to Chapter 10</a></p>
 
-    <span>First, use the id attribute to create a bookmark:</span>
-    <h2 id="C4">Chapter 4</h2>
-    <p><a href="#C4">Jump to Chapter 4</a></p>
-<p><a href="#C10">Jump to Chapter 10</a></p>
+  <h2>Chapter 1</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 1</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 2</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 2</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 3</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 3</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2 id="C4">Chapter 4</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2 id="C4">Chapter 4</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 5</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 5</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 6</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 6</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 7</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 7</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 8</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 8</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 9</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 9</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2 id="C10">Chapter 10</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2 id="C10">Chapter 10</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 11</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 11</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 12</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 12</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 13</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 13</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 14</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 14</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 15</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 15</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 16</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 16</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 17</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 17</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 18</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 18</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 19</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 19</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 20</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 20</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 21</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 21</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 22</h2>
+  <p>This chapter explains ba bla bla</p>
 
-<h2>Chapter 22</h2>
-<p>This chapter explains ba bla bla</p>
+  <h2>Chapter 23</h2>
+  <p>This chapter explains ba bla bla</p>
+  <br><hr>
 
-<h2>Chapter 23</h2>
-<p>This chapter explains ba bla bla</p>
-<br>
-<hr>
-<h2>HTML Image</h2>
-<img src="./assets/kitty-progresivo.jpg" alt="Trulli" width="500" height="333">
-<h2>HTML Images Syntax</h2>
-<pre>The HTML <img> tag is used to embed an image in a web page.
-
-    Images are not technically inserted into a web page; images are linked to web pages. The <.img> tag creates a holding space for the referenced image.
-    
-    The <.img> tag is empty, it contains attributes only, and does not have a closing tag.
-    
-    The <.img> tag has two required attributes:
-    
+  <h2>HTML Image</h2>
+  <img src="./assets/kitty-progresivo.jpg" alt="Trulli" width="500" height="333">
+  <h2>HTML Images Syntax</h2>
+  <pre>
+    The HTML <.img> tag is used to embed an image in a web page.
+    Images are not technically inserted into a web page; images are linked to web pages. The <.img> tag creates a holding space for the referenced image.    
+    The <.img> tag is empty, it contains attributes only, and does not have a closing tag.    
+    The <.img> tag has two required attributes:    
     src - Specifies the path to the image
-    alt - Specifies an alternate text for the image</pre>
-<h2>The src Attribute</h2>
-<p>The required src attribute specifies the path (URL) to the image.
+    alt - Specifies an alternate text for the image
+  </pre>
 
-    Note: When a web page loads, it is the browser, at that moment, that gets the image from a web server and inserts it into the page. Therefore, make sure that the image actually stays in the same spot in relation to the web page, otherwise your visitors will get a broken link icon. The broken link icon and the alt text are shown if the browser cannot find the image.</p>
- <h3>Image Size - Width and Height
-    You can use the style attribute to specify the width and height of an image.</h3>
-    <h2>Image Size</h2>
+  <h2>The src Attribute</h2>
+  <p>
+    The required src attribute specifies the path (URL) to the image.
+    Note: When a web page loads, it is the browser, at that moment, that gets the image from a web server and inserts it into the page. Therefore, make sure that the image actually stays in the same spot in relation to the web page, otherwise your visitors will get a broken link icon. The broken link icon and the alt text are shown if the browser cannot find the image.
+  </p>
 
-    <p>Here we use the style attribute to specify the width and height of an image:</p>
-    
-    <img src="./assets/9c43e64627785a27412e279807278404df98a0a5.jpg " alt="Girl in a jacket" style="width:500px;height:600px;">
+  <h3>Image Size - Width and Height You can use the style attribute to specify the width and height of an image.</h3>
+  <h2>Image Size</h2>
+  <p>Here we use the style attribute to specify the width and height of an image:</p>    
+  <img src="./assets/9c43e64627785a27412e279807278404df98a0a5.jpg " alt="Girl in a jacket" style="width:500px;height:600px;">
 
-    <br>
-    <img src="./assets/gif_350.gif" alt="hair_girl_gif">
-    <br>
-    <h3>Image Floating
-        Use the CSS float property to let the image float to the right or to the left of a text:</h3>
-    <h2>Floating Images</h2>
-    <p><strong>Float the image to the right:</strong></p>
-    
-    <p>
+  <br>
+  <img src="./assets/gif_350.gif" alt="hair_girl_gif">
+  <br>
+  <h3>Image Floating Use the CSS float property to let the image float to the right or to the left of a text:</h3>
+  <h2>Floating Images</h2>
+  <p><strong>Float the image to the right:</strong></p>
+
+  <p>
     <img src="./assets/gif_350.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
     A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
-    </p>
-    
-    <p><strong>Float the image to the left:</strong></p>
-    <p>
+  </p>
+      
+  <p><strong>Float the image to the left:</strong></p>
+  <p>
     <img src="./assets/gif_350.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
-    A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
-    </p>
+      A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
+  </p><br><hr>
+
+  <h2>TH elements define table headers</h2>
+  <table style="width:100%">
+    <tr>
+      <th>Tag</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>img </td>
+      <td>	Defines an image</td>
+    </tr>
+    <tr>
+      <td>map</td>
+      <td>	Defines an image map</td>
+    </tr>
+    <tr>
+      <td>area</td>
+      <td>Defines a clickable area inside an image map</td>
+    </tr>
+    <tr>
+      <td>picture</td>
+      <td>	Defines a container for multiple image resources</td>
+    </tr>
     <br>
-    <hr>
+    <hr> 
+  </table>
 
-    <h2>TH elements define table headers</h2>
+  <br><hr>
+  <h3>Image Maps The HTML <.map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <.area> tags. Try to click on the computer, phone, or the cup of coffee in the image below:</h3>      
+          
+  <h2>Image Maps</h2>
+  <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+  <img src="./assets/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
 
-<table style="width:100%">
+  <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="#">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="#">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="#">
+  </map>
 
-        <tr>
-            <th>Tag</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>img </td>
-            <td>	Defines an image</td>
-        </tr>
-        <tr>
-            <td>map</td>
-            <td>	Defines an image map</td>
-        </tr>
+  <p>How Does it Work? The idea behind an image map is that you should be able to perform different actions depending on where in the image you click. To create an image map you need an image, and some HTML code that describes the clickable areas.</p>
+  <br><hr><br>
 
-        <tr>
-            <td>area</td>
-            <td>Defines a clickable area inside an image map</td>
-        </tr>
-        <tr>
-            <td>picture</td>
-            <td>	Defines a container for multiple image resources</td>
-        </tr>
-        <br>
-        <hr> 
-    </table>
-    <br><hr>
-    <h3>Image Maps
-        The HTML <.map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <.area> tags.
-        
-        Try to click on the computer, phone, or the cup of coffee in the image below:
-                </h3>      
-        
-                <h2>Image Maps</h2>
-                <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
-                
-                <img src="./assets/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
-                
-                <map name="workmap">
-                  <area shape="rect" coords="34,44,270,350" alt="Computer" href="#">
-                  <area shape="rect" coords="290,172,333,250" alt="Phone" href="#">
-                  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="#">
-                </map>
-    <p>How Does it Work?
-        The idea behind an image map is that you should be able to perform different actions depending on where in the image you click.
-        
-        To create an image map you need an image, and some HTML code that describes the clickable areas.</p>
-<br><hr><br>
-<p>When to use the Picture Element
-    There are two main purposes for the <.picture> element:</p>
-        <pre>1. Bandwidth
-            If you have a small screen or device, it is not necessary to load a large image file. The browser will use the first <source> element with matching attribute values, and ignore any of the following elements.
-            
-            2. Format Support
-            Some browsers or devices may not support all image formats. By using the <picture> element, you can add images of all formats, and the browser will use the first format it recognizes, and ignore any of the following elements.</pre>
+  <p>When to use the Picture Element There are two main purposes for the <.picture> element:</p>
+
+  <pre>1. Bandwidth
+    If you have a small screen or device, it is not necessary to load a large image file. The browser will use the first <source> element with matching attribute values, and ignore any of the following elements.
+    
+    2. Format Support
+    Some browsers or devices may not support all image formats. By using the <picture> element, you can add images of all formats, and the browser will use the first format it recognizes, and ignore any of the following elements.
+  </pre>
                 <style>
                     table {
                       font-family: arial, sans-serif;
@@ -1817,8 +1793,587 @@ z = x + y;
 </form> 
 
 <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-
 <p>Notice that the value of the "First name" field will not be submitted, because the input element does not have a name attribute.</p>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+<h2>The select Element</h2>
+
+<p>The select element defines a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <input type="submit">
+</form>
+
+<h2>The select Element</h2>
+
+<p>The select element defines a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <input type="submit">
+</form>
+
+
+<h2>Allow Multiple Selections</h2>
+
+<p>Use the multiple attribute to allow the user to select more than one value.</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars" size="4" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select><br><br>
+  <input type="submit">
+</form>
+
+<p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+
+
+<h2>Textarea</h2>
+<p>The textarea element defines a multi-line input field.</p>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+  <br><br>
+  <input type="submit">
+</form>
+
+
+<h2>Styling Textarea</h2>
+
+<p>Use CSS to change the size of the textarea:</p>
+
+<form action="/action_page.php">
+  <textarea name="message" style="width:200px; height:600px; background-color: aqua;"  >The cat was playing in the garden.</textarea>
+  <br>
+  <input type="submit">
+</form>
+
+
+<h2>The output Element</h2>
+<p>The output element represents the result of a calculation.</p>
+
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge prior version 13.</p>
+<form action="/action_page.php">
+  <fieldset>
+    <legend style="float:right">Personalia:</legend>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+<h1>The optgroup element</h1>
+
+<p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <optgroup label="Swedish Cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+    </optgroup>
+    <optgroup label="German Cars">
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+<br><hr>
+HTML Input Types
+
+Here are the different input types you can use in HTML:
+
+    <input type="button"><
+    <input type="checkbox">
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image">
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="reset">
+    <input type="search">
+    <input type="submit">
+    <input type="tel">
+    <input type="text">
+    <input type="time">
+    <input type="url">
+    <input type="week">
+<p>Tip: The default value of the type attribute is "text".</p>
+
+
+<h2>Radio Buttons</h2>
+
+<p>The <strong>input type="radio"</strong> defines a radio button:</p>
+
+<p>Choose your favorite Web language:</p>
+<form action="/action_page.php">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<h2>Checkboxes</h2>
+<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<h2>Input Button</h2>
+<input type="button" onclick="alert('Hello World!')" value="Click Me!">
+
+<h2>Show a Color Picker</h2>
+
+<p>The <strong>input type="color"</strong> is used for input fields that should contain a color.</p>
+
+<form action="/action_page.php">
+  <label for="favcolor">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+  <input type="submit" value="Submit">
+</form>
+
+<p><b>Note:</b> type="color" is not supported in Internet Explorer 11 or Safari 9.1 (or earlier).</p>
+<h2>Date Field</h2>
+
+<p>The <strong>input type="date"</strong> is used for input fields that should contain a date.</p>
+
+<form action="/action_page.php">
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11 or prior Safari 14.1.</p>
+
+<h2>Date Field Restrictions</h2>
+
+<p>Use the min and max attributes to add restrictions to dates:</p>
+
+<form action="/action_page.php">
+  <label for="datemin">Enter a date after 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+  <label for="datemax">Enter a date before 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11 or prior Safari 14.1.</p>
+
+<h2>Local Date Field</h2>
+
+<p>The <strong>input type="datetime-local"</strong> specifies a date and time input field, with no time zone.</p>
+
+<form action="/action_page.php">
+  <label for="birthdaytime">Birthday (date and time):</label>
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> type="datetime-local" is not supported in Internet Explorer 11 or prior Safari 14.1.</p>
+
+<h2>Email Field</h2>
+
+<p>The <strong>input type="email"</strong> is used for input fields that should contain an e-mail address:</p>
+
+<form action="/action_page.php">
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+  <input type="submit" value="Submit">
+</form>
+
+<h2>Display an Image as the Submit button</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name: </label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name: </label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+</form>
+
+<p><b>Note:</b> The input type="image" sends the X and Y coordinates of the click that activated the image button.</p>
+
+<h1>File upload</h1>
+
+<p>Show a file-select field which allows a file to be chosen for upload:</p>
+<form action="/action_page.php">
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<h1>A Hidden Field (look in source code)</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="hidden" id="custId" name="custId" value="3487">
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> The hidden field is not shown to the user, but the data is sent when the form is submitted.</p>
+
+<h2>Month Field</h2>
+
+<p>The <strong>input type="month"</strong> allows the user to select a month and year.</p>
+
+<form action="/action_page.php">
+  <label for="bdaymonth">Birthday (month and year):</label>
+  <input type="month" id="bdaymonth" name="bdaymonth">
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> type="month" is not supported in Firefox, Safari, or Internet Explorer 11.</p>
+
+<h2>Number Field</h2>
+
+<p>The <strong>input type="number"</strong> defines a numeric input field.</p>
+
+<p>You can use the min and max attributes to add numeric restrictions in the input field:</p>
+
+<form action="/action_page.php">
+  <label for="quantity">Quantity (between 1 and 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  <input type="submit" value="Submit">
+</form>
+
+<h2>Input Restrictions</h2>
+
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Checked</td>
+    <td>Specifies that an input field should be pre-selected when the page loads (for type="checkbox" or type="radio")</td>
+  </tr>
+  <tr>
+    <td>disabled</td>
+    <td>Specifies that an input field should be disabled</td>
+  </tr>
+  <tr>
+    <td>max</td>
+    <td>Specifies the maximum value for an input field</td>
+  </tr>
+  <tr>
+    <td>maxlength</td>
+    <td>Specifies the maximum number of character for an input field</td>
+  </tr>
+  <tr>
+    <td>min</td>
+    <td>Specifies the minimum value for an input field</td>
+  </tr>
+  <tr>
+    <td>pattern</td>
+    <td>Specifies a regular expression to check the input value against</td>
+  </tr>
+  <tr>
+    <td>readonly</td>
+    <td>Specifies that an input field is read only (cannot be changed)</td>
+  </tr>
+  <tr>
+    <td>required</td>
+    <td>Specifies that an input field is required (must be filled out)</td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td> 	Specifies the width (in characters) of an input field</td>
+  </tr>
+  <tr>
+    <td>step</td>
+    <td>Specifies the legal number intervals for an input field</td>
+  </tr>
+  <tr>
+    <td>value</td>
+    <td>Specifies the default value for an input field</td>
+  </tr>
+</table>
+<p>The following example displays a numeric input field, where you can enter a value from 0 to 100, in steps of 10. The default value is 30:</p>
+
+
+<h1>The input maxlength attribute</h1>
+
+<p>The maxlength attribute specifies the maximum number of characters allowed in an input field:</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" maxlength="4" size="4"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>The input value attribute</h1>
+
+<p>The value attribute specifies an initial value for an input field:</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>The input readonly attribute</h1>
+
+<p>The readonly attribute specifies that an input field should be read-only (cannot be changed):</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John" readonly><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<h1>The input disabled attribute</h1>
+
+<p>The disabled attribute specifies that an input field should be disabled (unusable and un-clickable):</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John" disabled><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<h1>The input size attribute</h1>
+
+<p>The size attribute specifies the width (in characters) of an input field:</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" size="4"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<h1>The input maxlength attribute</h1>
+
+<p>The maxlength attribute specifies the maximum number of characters allowed in an input field:</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" maxlength="4" size="4"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>The input min and max attributes</h1>
+
+<p>The min and max attributes specify the minimum and maximum values for an input element.</p>
+
+<form action="/action_page.php">
+  <label for="datemax">Enter a date before 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+  <label for="datemin">Enter a date after 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+  
+  <label for="quantity">Quantity (between 1 and 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<h1>The input multiple attributes</h1>
+
+<p>The multiple attribute specifies that the user is allowed to enter more than one value in an input field.</p>
+
+<form action="/action_page.php">
+  <label for="files">Select files:</label>
+  <input type="file" id="files" name="files" multiple><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>To select multiple files, hold down the CTRL or SHIFT key while selecting.</p>
+
+<h1>The input pattern attribute</h1>
+
+<p>The pattern attribute specifies a regular expression that the input element's value is checked against.</p>
+
+<form action="/action_page.php">
+  <label for="country_code">Country code:</label>
+  <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> The pattern attribute of the input tag is not supported in Safari 10 (or earlier).</p>
+
+<h1>The input placeholder attribute</h1>
+
+<p>The placeholder attribute specifies a short hint that describes the expected value of an input field.</p>
+
+<form action="/action_page.php">
+  <label for="phone">Enter a phone number:</label>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>The input required attribute</h1>
+
+<p>The required attribute specifies that an input field must be filled out before submitting the form.</p>
+
+<form action="/action_page.php">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> The required attribute of the input tag is not supported in Safari prior version 10.1.</p>
+
+<h1>The input step attribute</h1>
+
+<p>The step attribute specifies the legal number intervals for an input element.</p>
+
+<form action="/action_page.php">
+  <label for="points">Points:</label>
+  <input type="number" id="points" name="points" step="3">
+  <input type="submit" value="Submit">
+</form>
+
+<h1>The input autofocus attribute</h1>
+
+<p>The autofocus attribute specifies that the input field should automatically get focus when the page loads.</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" autofocus><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>The input height and width attributes</h1>
+
+<p>The height and width attributes specify the height and width of an input type="image" element.</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+</form>
+
+<p><b>Note:</b> The input type="image" sends the X and Y coordinates of the click that activated the image button.</p>
+
+<h1>The input list attribute</h1>
+
+<p>The list attribute refers to a datalist element that contains pre-defined options for an input element.</p>
+
+<form action="/action_page.php">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit" value="Submit">
+</form>
+
+<p><b>Note:</b> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+<h1>The autocomplete attribute</h1>
+
+<p>The autocomplete attribute specifies whether or not an input field should have autocomplete enabled.</p>
+
+<p>Fill in and submit the form, then reload the page to see how autocomplete works.</p>
+
+<p>Notice that autocomplete is "on" for the form, but "off" for the e-mail field!</p>
+
+<form action="/action_page.php" autocomplete="on">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" autocomplete="off"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+
+
+
 
   
 
