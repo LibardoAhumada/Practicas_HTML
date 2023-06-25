@@ -2715,19 +2715,105 @@ Sorry, your browser does not support inline SVG.
   Slow rendering if complex (anything that uses the DOM a lot will be slow)
   Not suited for game applications
 </p>
+
+<h2>Controls</h2>
 <video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
+  <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 
+<h2>Autoplay</h2>
+<video width="320" height="240" autoplay>
+  <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+  <source src="https://www.w3schools.com/html/movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
 
+<h2>Autoplay muted (right button controls)</h2>
+<video width="320" height="240" autoplay muted>
+  <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
 
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="420">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+</div> 
 
+<script> 
+var myVideo = document.getElementById("video1"); 
 
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
 
+function makeBig() { 
+    myVideo.width = 560; 
+} 
 
-        
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+<p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+
+<h1>The source element</h1>
+
+<p>Click on the play button to play a sound:</p>
+
+<audio controls>
+  <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<h1>The video element</h1>
+
+<video width="320" height="240" controls>
+  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+<h1>The picture element</h1>
+
+<p>Resize the browser window to load different images.</p>
+
+<picture>
+  <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+<audio controls autoplay>
+  <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<audio controls autoplay muted>
+  <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 
         
 
