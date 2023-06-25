@@ -10,5 +10,9 @@ Estas Practicas están basadas en la documentación de la Pagina: https://www.w3
 ### este fue mi resultado en mi primer intento con el examen de 3WSchool ##
 
 
+# Resultado del examen despues de realizar las practicas en 3WSchool
+
+![Resultado de examen](./assets/Captura%20desde%202023-06-25%2013-14-52.png)
+
 
 
